@@ -5,9 +5,7 @@ import schedule
 import time
 import os
 
-#your login credentials
-insta_username=''
-insta_password=''
+
 
 #path to your workspace
 set_workspace(path=None)
@@ -29,7 +27,7 @@ def job():
       session.set_dont_like(["naked", "nsfw"])
 
 schedule.every().day.at("12:35").do(job)
-schedule.every().day.at("16:22").do(job)
+schedule.every().day.at("17:30").do(job)
 
 while True:
   schedule.run_pending()

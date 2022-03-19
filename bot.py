@@ -13,7 +13,7 @@ insta_password=''
 set_workspace(path=None)
 
 def job():
-  session = InstaPy(username=os.getenv("username"), password=os.getenv("password")).login()
+  session = InstaPy(username=os.getenv("username"), password=os.getenv("password"), headless_browser=True).login()
   session.set_quota_supervisor(enabled=True,
                             sleep_after=["likes", "comments_d", "follows", "unfollows", "server_calls_h"],
                             sleepyhead=True,

@@ -1,1 +1,1 @@
-web: python app:testing/getting_current_time.py --log-file=-
+worker: python testing/getting_current_time.py

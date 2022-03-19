@@ -1,0 +1,30 @@
+1647691367350	geckodriver	INFO	Listening on 127.0.0.1:34211
+1647691367832	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56355" "-no-remote" "-profile" "/tmp/rust_mozprofilePuEDwO"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1647691374213	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePuEDwO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56355/devtools/browser/b4f3f304-55c8-42f0-b008-ec40b2786fdc
+1647691379230	Marionette	INFO	Listening on port 42827
+1647691379348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647691386542	Marionette	INFO	Stopped listening on port 42827
+1647692422473	geckodriver	INFO	Listening on 127.0.0.1:59129
+1647692422891	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33955" "-no-remote" "-profile" "/tmp/rust_mozprofileaciWSR"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1647692426776	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaciWSR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33955/devtools/browser/483433b3-9866-4f15-bd13-86fb6b13a442
+1647692439367	Marionette	INFO	Listening on port 37931
+1647692439515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1647692503043	Marionette	INFO	Stopped listening on port 37931
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

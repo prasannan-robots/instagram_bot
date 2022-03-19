@@ -1,1 +1,1 @@
-web: gunicorn app:testing/getting_current_time.py --log-file=-
+web: python app:testing/getting_current_time.py --log-file=-

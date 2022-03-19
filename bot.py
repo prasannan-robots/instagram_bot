@@ -28,7 +28,7 @@ def job():
       session.like_by_tags(["memes", "sinclairlab","python","neuralnetworks","space"], amount=5)
       session.set_dont_like(["naked", "nsfw"])
 
-schedule.every().day.at("6:35").do(job)
+schedule.every().day.at("12:35").do(job)
 schedule.every().day.at("16:22").do(job)
 
 while True:

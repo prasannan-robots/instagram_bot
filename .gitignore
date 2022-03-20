@@ -1,1 +1,3 @@
 testing/credentials.sh
+env
+geckodriver-v0.30.0-linux64

@@ -1,1 +1,1 @@
-worker: python testing/getting_current_time.py
+worker: python bot.py

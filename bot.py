@@ -22,9 +22,10 @@ def job():
                             peak_follows_daily=None,
                             peak_unfollows_daily=None,
                             peak_server_calls_daily=4700)
-  mail = Mailer(email='vinayakarobotics@gmail.com',
-              password='Vrprasanna@2005')
-  mail.send(receiver='prasannanatarajan3595@gmail.com',  # Email From Any service Provider
+  mail = Mailer(email=os.getenv("emailid"),
+              password=os.getenv("password")
+  mail.send(receiver=os.getenv("recepitent"),
+ # Email From Any service Provider
           no_reply='noreplay@example.com', # Redirect receiver to another email when try to reply.
           subject='Logged In Instagram',
           message='Logged in from Insta')

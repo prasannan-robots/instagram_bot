@@ -1,1 +1,8 @@
+env/
+.venv/
+__pycache__/
+*.log
 testing/credentials.sh
+geckodriver*
+InstaPy/
+.env

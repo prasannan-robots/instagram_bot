@@ -4,9 +4,11 @@ from instapy import set_workspace
 import schedule
 import time
 
-#your login credentials
-insta_username=''
-insta_password=''
+import os
+
+# Credentials come from the environment - never write them into this file.
+insta_username = os.environ["INSTA_USERNAME"]
+insta_password = os.environ["INSTA_PASSWORD"]
 
 #path to your workspace
 set_workspace(path=None)
